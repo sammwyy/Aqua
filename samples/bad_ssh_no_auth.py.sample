@@ -1,0 +1,5 @@
+#!/dev/null
+def do_not_run():
+    import paramiko
+    ssh = paramiko.SSHClient()
+    ssh.connect('example.com', username='user', password='pass')

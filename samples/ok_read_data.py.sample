@@ -1,0 +1,4 @@
+#!/dev/null
+def do_not_run():
+    with open('data.txt') as f:
+        content = f.read()

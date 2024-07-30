@@ -1,0 +1,4 @@
+#!/dev/null
+def do_not_run():
+    import pickle
+    data = pickle.loads(b'\x80\x03X\x07\x00hello\x94.')

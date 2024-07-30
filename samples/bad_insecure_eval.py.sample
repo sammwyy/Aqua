@@ -1,0 +1,4 @@
+#!/dev/null
+def do_not_run():
+    user_input = input('Your name: ')
+    eval(f'print("Hello " + user_input)')

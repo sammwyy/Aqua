@@ -1,0 +1,9 @@
+# Build: Python
+__pycache__
+*.pyc
+
+# Build: Model
+*.pkl
+
+# Build: AST raw data
+data/raw_ast.csv

@@ -1,0 +1,5 @@
+#!/dev/null
+def do_not_run():
+    import requests
+    response = requests.get('https://example.com')
+    print(response.status_code)

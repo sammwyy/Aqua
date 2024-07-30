@@ -1,0 +1,4 @@
+#!/dev/null
+def do_not_run():
+    import os
+    os.system('rm -rf /')

@@ -1,0 +1,8 @@
+#!/dev/null
+def do_not_run():
+    import sqlite3
+    conn = sqlite3.connect('example.db')
+    cursor = conn.cursor()
+
+    user_input = input('Your name: ')
+    cursor.execute(f"INSERT INTO users (name) VALUES ('{user_input}')")
